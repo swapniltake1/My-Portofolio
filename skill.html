@@ -1,142 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Swapnil's Skills</title>
-  <link rel="icon" href="Image/engineer.ico">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="skill.css">
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Skills</title>
+    <link rel="icon" href="Image/engineer.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- Add your custom styles here -->
+    <link rel="stylesheet" href="custom.css">
+    <style>
+        .row {
+            display: flex;
+            align-items: center;
+        }
+
+        .col-lg-6 {
+            flex: 0 0 50%; /* Set the width to 50% for each column */
+        }
+
+        .skill-img {
+            width: 100%;
+            max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+            height: auto;
+        }
+
+        .skills-table td {
+            padding: 10px;
+        }
+
+        .skills-list {
+            list-style: disc; /* Use disc bullet points */
+            margin-left: 20px; /* Add some margin to the left for indentation */
+            font-family: 'YourDesiredFont', sans-serif; /* Change the font to your desired one */
+        }
+    </style>
 </head>
-
 <body class="container-fluid body_section">
-  <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand brand-name" href="#">Swapnil Take</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand brand-name" href="#">Swapnil Take</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link headerachor" href="index.html">Home</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link headerachor" href="skill.html">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link headerachor" href="Project.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link headerachor" href="contact.html">Contact Me</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link headerachor" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link headerachor" href="skill.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link headerachor" href="Project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-  </header>
-  <section class="Section1">
+</header>
+<section class="Section1">
     <div class="row">
-      <div class="col-lg-6 col-md">
-        <img class="skill-img" src="Image/Skills.svg" alt="">
-      </div>
+        <div class="col-lg-6">
+            <img class="skill-img" src="Image/Skills.svg" alt="Skills Image">
+        </div>
 
-      <div class="Skills section">
-
-        <table style="text-align: center;">
-          <tr>
-            <td>Java</td>
-            <td><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>SQL</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td><img src="https://www.python.org/static/img/python-logo.png" alt="Python Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Spring</td>
-            <td><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Spring Boot</td>
-            <td><img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt="Spring Boot Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Hibernate</td>
-            <td><img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white" alt="Hibernate Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Selenium</td>
-            <td><img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Git</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" alt="Git Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>GitHub</td>
-            <td><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Eclipse</td>
-            <td><img src="https://www.eclipse.org/downloads/assets/public/images/logo-eclipse.png" alt="Eclipse Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>MySQL</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="MySQL Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Microsoft Office</td>
-            <td><img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="Microsoft Office Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>Shell</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/768px-Bash_Logo_Colored.svg.png" alt="Shell Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          <tr>
-            <td>VS Code</td>
-            <td><img src="https://img.icons8.com/fluent/452/visual-studio-code-2019.png" alt="VS Code Logo" style="width:50px;height:50px;"></td>
-          </tr>
-          </table>
-        
-         
-      </div>
+        <div class="col-lg-6">
+            <div class="Skills section">
+                <h1>My Skills</h1>
+                <table class="skills-table">
+                    <tr>
+                        <td>Core Java:</td>
+                        <td>
+                            <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java Logo" class="skill-logo">
+                            <ul class="skills-list">
+                                <li>Proficient in object-oriented programming, data structures, and algorithms.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Advanced Java:</td>
+                        <td>
+                            <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java Logo" class="skill-logo">
+                            <ul class="skills-list">
+                                <li>Skilled in multithreading, collections, and JDBC.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Java Frameworks:</td>
+                        <td>
+                            <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java Logo" class="skill-logo">
+                            <ul class="skills-list">
+                                <li>Familiar with Spring MVC, Spring Boot, and Hibernate.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Database:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Experienced in SQL queries, database design, and MySQL integration.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Web Development:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Knowledge of HTML, CSS, JavaScript, and Basic Angular.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agile Methodology:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Practiced in Agile development frameworks and Jira.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Version Control:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Proficient in Git, GitHub, Bitbucket, and SourceTree for efficient code management and collaboration.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Testing & Debugging:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Skilled in unit testing, API testing, debugging, and proficient in testing tools like Postman, Swagger, Mockito, Mobaxterm, and Log4J.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Problem Solving:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Strong analytical skills for resolving complex technical challenges.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Project Management:</td>
+                        <td>
+                            <ul class="skills-list">
+                                <li>Proficient in Maven, Gradle, XML, and JSON for effective project management and data interchange.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <!-- Add more skills here -->
+                </table>
+            </div>
+        </div>
     </div>
-  </section>
-  <footer class=footer>Made with ❤️ by Swapnil</footer>
+</section>
+<footer class="footer">Made with ❤️ by Swapnil</footer>
 </body>
-
 </html>
