@@ -26,26 +26,26 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       {/* Main links of navbar */}
-      <Link to='/'>
+      <Link to='/swapniltake/'>
         <h1>PortoFolio</h1>
       </Link>
 
       {/* Other links of navbar */}
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/swapniltake/'>Home</Link>
         </li>
 
         <li>
-          <Link to='/project'>Projects</Link>
+          <Link to='/swapniltake/project'>Projects</Link>
         </li>
 
         <li>
-          <Link to='/about'>About</Link>
+          <Link to='/swapniltake/about'>About</Link>
         </li>
 
         <li>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/swapniltake/contact'>Contact</Link>
         </li>
       </ul>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
+import Skills from '../components/Skills';
 
 
 export const home = () => {
@@ -11,6 +12,8 @@ export const home = () => {
      <Navbar/>   
      
      <HeroImg />
+     
+     <Skills/>
 
      <Footer />
 

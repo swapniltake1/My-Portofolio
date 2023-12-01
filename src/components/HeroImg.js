@@ -17,8 +17,8 @@ const HeroImg = () => {
         <p> Hi, Am Swapnil  </p>
         <h1>Java Developer</h1>
 
-    <Link to='/project' className='btn'>My Projects </Link>
-    <Link to='/contact' className='btn btn-light'> Contact Me </Link>
+    <Link to='/swapniltake/project' className='btn'>My Projects </Link>
+    <Link to='/swapniltake/contact' className='btn btn-light'> Contact Me </Link>
 
     </div>
 

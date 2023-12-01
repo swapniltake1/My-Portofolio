@@ -13,10 +13,11 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Home />}  />
-      <Route path="/about" element={<About />}  />
-      <Route path="/contact" element={<Contact />}  />
-      <Route path="/project" element={<Project />}  />
+    <Route path="/" element={<Home />}  />
+      <Route path="/swapniltake/" element={<Home />}  />
+      <Route path="/swapniltake/about" element={<About />}  />
+      <Route path="/swapniltake/contact" element={<Contact />}  />
+      <Route path="/swapniltake/project" element={<Project />}  />
     </Routes>
     </>
   );
