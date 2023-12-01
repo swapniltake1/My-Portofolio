@@ -14,8 +14,8 @@ const HeroImg = () => {
     </div>
 
     <div className='content'>
-        <p> Hi, Am Swapnil  </p>
-        <h1>Java Developer</h1>
+    <p>Hey 👋 Welcome! I'm Swapnil.</p>
+        <h1> Java Developer</h1>
 
     <Link to='/swapniltake/project' className='btn'>My Projects </Link>
     <Link to='/swapniltake/contact' className='btn btn-light'> Contact Me </Link>

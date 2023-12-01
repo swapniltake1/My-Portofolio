@@ -7,6 +7,27 @@ import React from 'react'
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const handleLinkedInClick = () => {
+    window.open('https://www.linkedin.com/in/swapniltake1', '_blank');
+  };
+
+  const handleTwitterClick = () => {
+    window.open('https://twitter.com/swapniltake01', '_blank');
+  };
+
+  const handleYoutubeClick = () => {
+    window.open('https://www.youtube.com/@thecodebreaker', '_blank');
+  };
+
+  const handleWhatsappClick = () => {
+    const message = encodeURIComponent("Hi, let's connect!"); 
+    window.open(`https://wa.me/8600789879/?text=${message}`, '_blank');
+  };
+
+  const handleInstagramClick = () => {
+    window.open('https://www.instagram.com/swapniltake_patil', '_blank');
+  };
+
   return (
     <div className='footer'>
      <div className='footer-container'>
@@ -48,11 +69,11 @@ const Footer = () => {
     </div>
     </div>
     <div className='social'>
-    <FaLinkedin size={20} style={ { color:"#fff", marginRight:"1rem"}} />
-    <FaTwitter size={20} style={ { color:"#fff", marginRight:"1rem"}} />
-    <FaYoutube size={20} style={ { color:"#fff", marginRight:"1rem"}} />
-    <FaWhatsapp size={20} style={ { color:"#fff", marginRight:"1rem"}} />
-    <FaInstagram size={20} style={ { color:"#fff", marginRight:"1rem"}} />
+      <FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }} onClick={handleLinkedInClick} />
+      <FaTwitter size={20} style={{ color: "#fff", marginRight: "1rem" }} onClick={handleTwitterClick} />
+      <FaYoutube size={20} style={{ color: "#fff", marginRight: "1rem" }} onClick={handleYoutubeClick} />
+      <FaWhatsapp size={20} style={{ color: "#fff", marginRight: "1rem" }} onClick={handleWhatsappClick} />
+      <FaInstagram size={20} style={{ color: "#fff", marginRight: "1rem" }} onClick={handleInstagramClick} />
     </div>
     <footer className='social'>
       <p>© Swapnil Take, {currentYear}. All Rights Reserved.</p>
