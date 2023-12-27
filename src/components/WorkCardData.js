@@ -5,11 +5,11 @@ import pro3 from '../assets/project1.png';
 import pro4 from '../assets/project4.png';
 import pro5 from '../assets/project5.png';
 import pro6 from '../assets/Project6.png';
-import chatappimg from '../assets/chat-app.png';
+import pro7 from '../assets/chat-app.png';
 
 const ProjectCardData=[
      {
-        imgsrc: chatappimg,
+        imgsrc: pro7,
         title: "Realtime Chat Application",
         text1: "Java, React, MySQL",
         text2: "Full-stack Chat Application. used WebSockets, Spring security, Redux, tailwind css",
