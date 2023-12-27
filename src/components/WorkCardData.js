@@ -5,11 +5,20 @@ import pro3 from '../assets/project1.png';
 import pro4 from '../assets/project4.png';
 import pro5 from '../assets/project5.png';
 import pro6 from '../assets/Project6.png';
+import chatappimg from '../assets/chat-app.png';
 
 const ProjectCardData=[
+     {
+        imgsrc: chatappimg,
+        title: "Realtime Chat Application",
+        text1: "Java, React, MySQL",
+        text2: "Full-stack Chat Application. used WebSockets, Spring security, Redux, tailwind css",
+        view: "https://www.youtube.com/watch?v=nZtTDV-ZLq4&list=PLllmB6K8pYF9wwtczRD4GcO5hfCs_rF0c&index=2",
+        source: "https://github.com/swapniltake1/Realtime-Chat-Application"
+    },
     {
         imgsrc: pro1,
-        title: "Ecommerce App ",
+        title: "E-commerce App: Shoppinghub",
         text1: "Java, React, MySQL",
         text2: "Full-stack E-commerce App showcasing Java-React integration for seamless online shopping.",
         view: "Yt Link",
