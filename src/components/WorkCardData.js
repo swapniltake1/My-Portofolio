@@ -1,13 +1,23 @@
 
 import pro1 from '../assets/project1.png';
-import pro2 from '../assets/project1.png';
-import pro3 from '../assets/project1.png';
+import pro2 from '../assets/onlinne learning.jpg';
+import pro3 from '../assets/Open wether.png';
 import pro4 from '../assets/project4.png';
 import pro5 from '../assets/project5.png';
-import pro6 from '../assets/Project6.png';
+import pro6 from '../assets/course img.png';
 import chatappimg from '../assets/chat-app.png';
+import annn from '../assets/anonymus chat.png';
+
 
 const ProjectCardData=[
+    {
+        imgsrc: annn,
+        title: "Anonymous Chat Application",
+        text1: "Java, html/css",
+        text2: "a simple web-based chat application where users can join anonymously and communicate",
+        view: "https://www.youtube.com/watch?v=DwNrYO5XgUA",
+        source: "https://github.com/swapniltake1/anonymous-chat-application"
+    },
      {
         imgsrc: chatappimg,
         title: "Realtime Chat Application",
@@ -18,10 +28,10 @@ const ProjectCardData=[
     },
     {
         imgsrc: pro1,
-        title: "E-commerce App: Shoppinghub",
+        title: "E-commerce App",
         text1: "Java, React, MySQL",
         text2: "Full-stack E-commerce App showcasing Java-React integration for seamless online shopping.",
-        view: "Yt Link",
+        view: "https://www.youtube.com/watch?v=Ck-vC_TcV7o",
         source: "https://github.com/swapniltake1/Ecommerce-App-Java-React"
     },
     {
@@ -53,7 +63,7 @@ const ProjectCardData=[
         title: "DRUG-TRACEABILITY",
         text1: "J2EE, Blockchain, MySQL",
         text2: "track or trace where the drug has been and where it has gone along the drug supply chain.",
-        view: "Yt Link",
+        view: "https://www.youtube.com/watch?v=kjhVnbffU-0&t=1s",
         source: "https://github.com/swapniltake1/DRUG-TRACEABILITY-IN-HEALTHCARE-SUPPLY-CHAIN-USING-BLOCKCHAIN-Final-Year-Project-"
     },
     {

@@ -1,7 +1,7 @@
 import './HeroImgStyle.css';
 import '../index.css';
 import React from 'react';
-import intro from '../assets/background-img.jpg';
+import intro from '../assets/Swapnil Backgrounnd.jpeg';
 import { Link } from 'react-router-dom';
 
 

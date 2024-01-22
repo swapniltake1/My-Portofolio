@@ -34,8 +34,8 @@ const Form = () => {
         <input type='text' name='subject' id='subject' required />
         <label> Your Message </label>
         <textarea rows='6' placeholder='Type your message' id='message' name='message' required />
-        {submitStatus === 'submitted' && <p className='submitted notify' style={{color:'Green'}}>Form submitted successfully, I'll get back to you asap!</p>}
-      {submitStatus === 'notSubmitted' && <p className='not-submitted notify'style={{color:'red'}}>Form not submitted. Please try again later.</p>}
+        {submitStatus === 'submitted' && <p className='submitted notify' style={{ color: 'Green' }}>Form submitted successfully, I'll get back to you asap!</p>}
+        {submitStatus === 'notSubmitted' && <p className='not-submitted notify' style={{ color: 'red' }}>Form not submitted. Please try again later.</p>}
         <button className='btn' type='submit'>Submit</button>
       </form>
     </div>
