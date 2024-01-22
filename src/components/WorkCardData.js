@@ -4,8 +4,11 @@ import pro2 from '../assets/onlinne learning.jpg';
 import pro3 from '../assets/Open wether.png';
 import pro4 from '../assets/project4.png';
 import pro5 from '../assets/project5.png';
-import pro6 from '../assets/Project6.png';
+import pro6 from '../assets/course img.png';
 import chatappimg from '../assets/chat-app.png';
+import annn from '../assets/anonymus chat.png';
+import pro7 from '../assets/chat-app.png';
+
 
 const ProjectCardData=[
     {
