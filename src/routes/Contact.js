@@ -11,7 +11,7 @@ export const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="Contact Me" text="Lets have some chat..." />
+      <HeroImg2 heading="Contact Me" text="Contact Form Inactive Due to Spam: Reach Out at swapniltake1@outlook.com Instead" />
       <Form />
      <Footer />
     </div>

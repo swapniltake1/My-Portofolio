@@ -21,7 +21,7 @@ const Footer = () => {
 
   const handleWhatsappClick = () => {
     const message = encodeURIComponent("Hi, let's connect!"); 
-    window.open(`https://wa.me/8600789879/?text=${message}`, '_blank');
+    window.open(`https://wa.me/0000000000/?text=${message}`, '_blank');
   };
 
   const handleInstagramClick = () => {
@@ -46,14 +46,14 @@ const Footer = () => {
         <div className='location'>
         <FaPhone size={20} style={ { color:"#fff", marginRight:"2rem"}} />
         <div>
-        <p>+91 8600789879</p>
+        <p>+91 0000000000</p>
         </div>
         </div>
     
         <div className='location'>
         <FaMailBulk size={20} style={ { color:"#fff", marginRight:"2rem"}} />
         <div>
-        <p>takeswapnil8@gmail.com</p>
+        <p>swapniltake1@outlook.com</p>
         </div>
         </div>
     

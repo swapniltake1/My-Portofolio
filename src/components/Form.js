@@ -3,13 +3,13 @@ import './FormStyle.css'
 import emailjs from 'emailjs-com';
 
 const Form = () => {
-  emailjs.init('cpBRKppTPpKINIr0C');
+  emailjs.init('');
   const formRef = useRef();
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_r177tvk', 'template_n2vvz1q', formRef.current)
+    emailjs.sendForm('', '', formRef.current)
       .then((result) => {
         console.log('Email sent successfully!', result.text);
         setSubmitStatus('submitted');
@@ -25,7 +25,8 @@ const Form = () => {
 
   return (
     <div className='form'>
-      <form ref={formRef} onSubmit={handleSubmit}>
+      
+      <form ref={formRef} >
         <label> Your Name </label>
         <input type='text' name='name' id='name' required />
         <label> Email </label>
